@@ -7,11 +7,10 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
             background-color: rgb(8, 155, 96);
             grid-auto-rows: 100px;
-            column-gap: 5px;
-            row-gap: 30px;
+            gap: 30px;
+            grid-auto-flow: column;
         }
 
         .item{
